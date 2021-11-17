@@ -8,7 +8,7 @@ body {
     font-family: 'Whitney', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     display: table;
     content: '';
     clear: both;
@@ -19,7 +19,7 @@ body {
     margin: 0 auto;
 }
 
-img {
+header>img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -132,8 +132,12 @@ section {
     margin: 100px 0;
 }
 
-.image {
+.image-left {
     float: left;
+}
+
+.image-right {
+    float: right;
 }
 
 .text {
@@ -143,4 +147,29 @@ section {
 .text>h2 {
     font-size: 2em;
     margin: 25px 0;
+}
+
+.text-center {
+    display: inline-block;
+    text-align: center;
+}
+
+.text-center>h2 {
+    font-size: 2em;
+}
+
+.text-center>p {
+    margin: 30px 150px;
+}
+
+.big-image {
+    position: relative;
+}
+
+#big-image {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
