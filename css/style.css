@@ -21,6 +21,7 @@ body {
 
 img {
     display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -40,16 +41,15 @@ header {
     height: 100%;
     width: 20%;
     display: inline-block;
-    vertical-align: middle;
+    line-height: 80px;
+    float: left;
 }
 
 .top-menu {
     height: 80px;
     line-height: 80px;
-    vertical-align: center;
-    width: 60%;
     display: inline-block;
-    vertical-align: middle;
+    width: 60%;
 }
 
 li {
@@ -63,10 +63,9 @@ li>a {
 }
 
 .button {
-    height: 100%;
     width: 20%;
-    display: inline-block;
-    vertical-align: middle;
+    float: right;
+    line-height: 80px;
 }
 
 .button>a {
@@ -76,5 +75,4 @@ li>a {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
 }
