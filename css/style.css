@@ -95,7 +95,7 @@ h1 {
     font-size: 2.5em;
 }
 
-.text {
+.paragraph {
     margin: 25px 150px;
 }
 
@@ -123,4 +123,24 @@ h1 {
 .push-button1,
 .push-button2>a {
     font-weight: 600;
+}
+
+
+/* Section */
+
+section {
+    margin: 100px 0;
+}
+
+.image {
+    float: left;
+}
+
+.text {
+    padding: 25px 0;
+}
+
+.text>h2 {
+    font-size: 2em;
+    margin: 25px 0;
 }
