@@ -8,7 +8,73 @@ body {
     font-family: 'Whitney', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}
+
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+}
+
+
+/* Header */
+
+header {
+    height: 400px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.top-header {
+    padding: 20px 0;
+}
+
+#logo {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-menu {
+    height: 80px;
+    line-height: 80px;
+    vertical-align: center;
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button>a {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
