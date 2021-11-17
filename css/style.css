@@ -33,6 +33,9 @@ header {
     background-size: cover;
 }
 
+
+/* Top Header */
+
 .top-header {
     padding: 20px 0;
 }
@@ -75,4 +78,49 @@ li>a {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+}
+
+
+/* Bottom Header */
+
+.bottom-header {
+    color: white;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.text {
+    margin: 25px 150px;
+}
+
+.push-button1 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.push-button2 {
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.push-button1,
+.push-button2>a {
+    font-weight: 600;
 }
