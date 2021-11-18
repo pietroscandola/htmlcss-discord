@@ -15,121 +15,124 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
-}
-
-header>img {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 
 /* Header */
 
-header {
-    height: 400px;
-    background-image: url('../img/jumbo.png');
-    background-size: cover;
-}
 
-
-/* Top Header */
+/* Top-Header */
 
 .top-header {
-    padding: 20px 0;
+    height: 80px;
+    width: 100%;
 }
 
-#logo {
-    height: 100%;
+header {
+    height: 500px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.col1 {
     width: 20%;
     display: inline-block;
-    line-height: 80px;
-    float: left;
+    vertical-align: middle;
 }
 
-.top-menu {
-    height: 80px;
-    line-height: 80px;
+.col2 {
+    width: calc(60% - 10px);
     display: inline-block;
-    width: 60%;
-}
-
-li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-li>a {
+    line-height: 80px;
+    text-align: center;
     color: white;
-    text-decoration: none;
 }
 
-.button {
+.col3 {
     width: 20%;
     float: right;
     line-height: 80px;
+    text-align: right;
 }
 
-.button>a {
+.col2 li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#login {
+    display: inline;
     background-color: white;
-    border-radius: 30px;
     color: black;
     padding: 10px 20px;
-    text-align: center;
     text-decoration: none;
+    border-radius: 30px;
+}
+
+#login:hover {
+    color: lightblue;
 }
 
 
-/* Bottom Header */
-
-.bottom-header {
-    color: white;
-}
+/* Down Header */
 
 .jumbotron {
     text-align: center;
-}
-
-h1 {
-    font-size: 2.5em;
-}
-
-.paragraph {
-    margin: 25px 150px;
-}
-
-.push-button1 {
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: none;
-}
-
-.push-button2 {
-    background-color: black;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
+    margin: 70px 200px;
     color: white;
 }
 
-.push-button1,
-.push-button2>a {
-    font-weight: 600;
+.jumbotron>h1 {
+    font-size: 2.5em;
+}
+
+.jumbotron>p {
+    font-weight: bolder;
+    padding: 20px 0;
 }
 
 
-/* Section */
+/* Botton down-header */
+
+.button {
+    text-align: center;
+}
+
+.down-header .button .mac {
+    display: inline;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.mac:hover {
+    color: lightblue;
+}
+
+#discord {
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#discord:hover {
+    color: lightblue;
+}
+
+
+/* Main */
 
 section {
-    margin: 100px 0;
+    margin: 100px 20px;
 }
 
 .image-left {
@@ -149,27 +152,101 @@ section {
     margin: 25px 0;
 }
 
-.text-center {
-    display: inline-block;
+
+/* Onda */
+
+.wave {
+    color: white;
+}
+
+.second image {
+    background-color: #f6f6f6;
+}
+
+
+/*Fourth Image */
+
+.fourth-image {
     text-align: center;
 }
 
-.text-center>h2 {
+.text-up {
+    text-align: center;
+    margin: 0 200px;
+    padding: 20px;
+}
+
+.text-up>h2 {
     font-size: 2em;
+    margin: 25px 0;
 }
 
-.text-center>p {
-    margin: 30px 150px;
+.text-bottom {
+    padding: 20px 0;
 }
 
-.big-image {
-    position: relative;
+#download {
+    display: inline;
+    background-color: #8ea1e1;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
-#big-image {
+.text-bottom>h3 {
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: #23272a;
+    padding: 50px 0;
+}
+
+.first-content {
     display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.second-content {
+    width: 15%
+}
+
+.third-content {
+    width: 15%;
+}
+
+.fourth-content {
+    width: 15%;
+}
+
+.fifth-content {
+    width: 15%;
+}
+
+
+/* Prima colonna */
+
+.main-title {
+    color: #7289da;
+}
+
+.first-content>h3 {
+    font-size: 2em;
+    width: 50%;
+    padding: 30px 0;
+}
+
+#ita {
+    width: 30px;
+    height: 5px;
+}
+
+#social {
+    color: white;
 }
