@@ -37,7 +37,7 @@ header {
     padding-top: 20px;
 }
 
-.col1 {
+.logo {
     width: 20%;
     display: inline-block;
     vertical-align: middle;
@@ -202,51 +202,113 @@ section {
 /* Footer */
 
 footer {
-    height: 500px;
-    width: 100%;
     background-color: #23272a;
     padding: 50px 0;
+    color: black;
 }
 
-.first-content {
-    display: inline-block;
-    width: 50%;
+.main-title {
+    color: #7289da;
+    padding-bottom: 10px;
 }
 
-.second-content {
-    width: 15%
-}
-
-.third-content {
-    width: 15%;
-}
-
-.fourth-content {
-    width: 15%;
-}
-
-.fifth-content {
-    width: 15%;
+.top-footer {
+    height: 400px;
+    border-bottom: 2px solid #404c6c;
 }
 
 
 /* Prima colonna */
 
-.main-title {
-    color: #7289da;
+.left-content {
+    width: 30%;
+    display: inline-block;
 }
 
-.first-content>h3 {
-    font-size: 2em;
-    width: 50%;
-    padding: 30px 0;
+.left-content>h3 {
+    font-size: 2.5em;
 }
 
 #ita {
+    height: 20px;
     width: 30px;
-    height: 5px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.language {
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
 }
 
 #social {
+    display: inline-block;
+}
+
+i {
+    text-decoration: none;
+    display: inline-block;
     color: white;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+
+
+/* Altre colonne */
+
+.right-content {
+    width: calc(70% - 10px);
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    padding: 2px 0;
+}
+
+.colonna2 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.colonna3 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.colonna4 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.colonna5 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* Down-footer */
+
+.down-footer {
+    margin-top: 20px;
+}
+
+#registrati {
+    display: inline;
+    background-color: #8ea1e1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.pos-logo {
+    width: 50%;
+    float: left;
+}
+
+.pos-reg {
+    display: inline-block;
+    float: right;
 }

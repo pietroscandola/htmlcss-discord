@@ -9,6 +9,8 @@
     <meta name="description" content="Clone Discord">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Pietro Scandola">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,7 +18,7 @@
     <header>
         <div class="container">
             <div class="top-header">
-                <div class="col1">
+                <div class="logo">
                     <img src="img/logo.svg" alt="logo">
                 </div>
                 <div class="col2">
@@ -120,28 +122,115 @@
     <footer>
         <div class="top-footer">
             <div class="container">
-                <div class="first-content">
+
+                <!-- Prima Colonna -->
+                <div class="left-content">
                     <h3 class="main-title"> Il tuo posto per parlare</h3>
-                    <span>
-                        <img id="ita " src="img/ita.png " alt="italia "> italiano
-                        <i class="fas fa-angle-down "></i>
-                    </span>
+                    <div>
+                        <div class="language">
+                            <img id="ita" src="img/ita.png" alt="italia">
+                        </div>
+                        <span class="language">
+                            italiano &#711;                         
+                        </span>
+                    </div>
                     <div id="social ">
-                        <i class="fab fa-twitter "></i>
+                        <a href="#">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 4 colonne stessa dimensione -->
+                <div class="right-content">
+
+                    <div class="colonna2">
+                        <h5 class="main-title">Prodotto</h5>
+                        <nav>
+                            <ul>
+                                <li>Scarica</li>
+                                <li>Perchè Discord</li>
+                                <li>Nitro</li>
+                                <li>Sicurezza</li>
+                                <li>Assistenza</li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="colonna3">
+                        <h5 class="main-title">Compagnia</h5>
+                        <nav>
+                            <ul>
+                                <li>Chi siamo</li>
+                                <li>Lavora con noi</li>
+                                <li>Marchio</li>
+                                <li>Redazione</li>
+                                <li>Negozio</li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="colonna4">
+                        <h5 class="main-title">Risorse</h5>
+                        <nav>
+                            <ul>
+                                <li>Scarica</li>
+                                <li>Perchè Discord</li>
+                                <li>Nitro</li>
+                                <li>Sicurezza</li>
+                                <li>Assistenza</li>
+                                <li>Scarica</li>
+                                <li>Perchè Discord</li>
+                                <li>Nitro</li>
+                                <li>Sicurezza</li>
+                                <li>Assistenza</li>
+                                <li>Assistenza</li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="colonna5">
+                        <h5 class="main-title">Norme</h5>
+                        <nav>
+                            <ul>
+                                <li>Scarica</li>
+                                <li>Perchè Discord</li>
+                                <li>Nitro</li>
+                                <li>Sicurezza</li>
+                                <li>Assistenza</li>
+                            </ul>
+                        </nav>
                     </div>
 
                 </div>
-                <div class="second-content "></div>
-                <div class="third-content "></div>
-                <div class="fourth-content "></div>
-                <div class="fifth-content "></div>
             </div>
+        </div>
 
         </div>
-        <div class="down-footer "></div>
+        <div class="down-footer container ">
+            <!-- Logo -->
+            <div class="pos-logo"></div>
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </div>
 
+            <!-- Registrati -->
+            <div class="pos-reg">
+                <div>
+                    <a id="registrati" href="#">Registrati</a>
+                </div>
+            </div>
+        </div>
     </footer>
-
 </body>
 
 </html>
